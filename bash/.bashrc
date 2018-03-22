@@ -129,7 +129,7 @@ function dssh () {
 }
 
 function m2 () {
-    sudo docker exec -it dockerdemo_fpm70_1 php /usr/share/nginx/html/demo.magento2.php9.cc/bin/magento $1
+    sudo docker exec -it dockerdemo_fpm70_1 php /usr/share/nginx/html/demo.magento2.php9.cc/bin/magento "$@"
 }
 
 alias fanqiang="echo \"Hello, World! Ctrl+C to break\";autossh -qTnN -D 0.0.0.0:7070 shinetechchina@hk.php9.cc -p 22"
