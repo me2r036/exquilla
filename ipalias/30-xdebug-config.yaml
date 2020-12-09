@@ -1,8 +1,0 @@
-network:
-  version: 2
-  renderer: networkd
-  ethernets:
-    wlp2s0:
-      dhcp4: true
-      addresses:
-       - 10.120.1.89/24

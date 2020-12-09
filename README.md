@@ -1,2 +1,2 @@
-# myconf
-My Conf
+# exQuilla keyGen
+exQuilla key generator
